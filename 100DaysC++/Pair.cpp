@@ -14,6 +14,7 @@ int main() {
     cout << p.first << " " << p.second << '\n';
 
     // another way 
+    // supports(pairs) and vector(pairs)
 
     pair<string,int> p2(p);
 
@@ -23,7 +24,7 @@ int main() {
 
     cout << p3.first << " " << p3.second << '\n';
 
-    pair<pair<string,int>, int> bwc;
+    pair< pair<string,int>,  int> bwc;
 
     bwc.first.first = "Rank";
     bwc.first.second = 1;

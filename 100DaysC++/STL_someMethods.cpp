@@ -21,9 +21,22 @@ int main() {
     cout << '\n';
     next_permutation(inp.begin(),inp.end());
 
+    int arr[] = {1,2,3 ,4,5};
+
+    reverse(arr,arr+2);
+    for(auto v:arr) 
+        cout << v << " ";
+    
+    cout << "\n";
+
     for(auto v:inp)
         cout << v << " "; 
+    
+    cout << "\n";
 
+    next_permutation(inp.begin(),inp.end());
+    for(auto v:inp)
+        cout << v << " "; 
 
     return 0;
 }
